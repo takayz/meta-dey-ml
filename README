@@ -1,41 +1,47 @@
+
+README
+
 This README file contains information on the contents of the meta-dey-ml layer.
 
+This layer is useful to implement NXP eIQ Machine Learning Software Development Environment for i.MX Applicaton Processors.
+Require specific BSP environment as following.
+
+> NXP eIQ Machine Learning Software Development Environment 
+> Digi International DEY 3.0-r2 (Yocto Zeus) BSP
+> Digi International ConnectCore 8X SBC Pro or ConnectCore 8Mnano Development board
+
 Please see the corresponding sections below for details.
+
 
 Dependencies
 ============
 
-  URI: <first dependency>
-  branch: <branch name>
+  NXP eIQ Machine Learning Software Development Environment
+    https://www.nxp.com/design/software/development-software/eiq-ml-development-environment:EIQ
+    
+  Digi International DEY 3.0-r2 (Yocto Zeus) BSP
+    https://www.digi.com/resources/documentation/digidocs/embedded/dey/3.0/cc8x/index.html
+    https://www.digi.com/resources/documentation/digidocs/embedded/dey/3.0/cc8mnano/index.html
+    
+  Digi International ConnectCore 8X SBC Pro
+    https://www.digi.com/resources/documentation/digidocs/90002297/
 
-  URI: <second dependency>
-  branch: <branch name>
-
-  .
-  .
-  .
+  Digi International ConnectCore 8Mnano Development Board
+    https://www.digi.com/resources/documentation/digidocs/90002385/
+    
 
 Patches
 =======
 
-Please submit any patches against the meta-dey-ml layer to the xxxx mailing list (xxxx@zzzz.org)
-and cc: the maintainer:
+Maintainer manages any patches again this meta-dey-ml layer.
+Please contact the following maintainer:
 
-Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
-
-Table of Contents
-=================
-
-  I. Adding the meta-dey-ml layer to your build
- II. Misc
+Maintainer: takaya.yuzawa@digi.com
 
 
-I. Adding the meta-dey-ml layer to your build
-=================================================
+How to use this layer
+=====================
+
+To add this meta-dey-ml layer to your build.
 
 Run 'bitbake-layers add-layer meta-dey-ml'
-
-II. Misc
-========
-
---- replace with specific information about the meta-dey-ml layer ---
